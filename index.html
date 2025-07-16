@@ -10,6 +10,36 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1>Smoothie Machine</h1>
+        <form id="SmoothieForm">
+            <label for="size">Choose a size:</label>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+
+            <fieldset>
+                <legend>Pick your fruits:</legend>
+                <label><input type="checkbox" name="ingredients" value="Banana"> Banana</label>
+                <label><input type="checkbox" name="ingredients" value="Strawberry"> Strawberry</label>
+                <label><input type="checkbox" name="ingredients" value="Mango"> Mango</label>
+            </fieldset>
+
+            <label for="base">Choose your base:</label>
+            <select id="base" name="base" required>
+                <option value="Yogurt">Yogurt</option>
+                <option value="Almond Milk">Almond Milk</option>
+                <option value="Coconut Water">Coconut Water</option>
+            </select>
+
+            <button type="submit">Order Smoothie</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
 
 </body>
 
