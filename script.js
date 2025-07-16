@@ -20,7 +20,7 @@ class Smoothie {
         return `
         <h2>Your Smoothie</h2>
         <p>Size: ${this.size}</p>
-        <p>Ingredients: ${this.ingredients.join(', ')}</p>
+        <p>Ingredients: ${this.ingredients.join(', ')|| "No ingredients selected"}</p>
         <p>Base: ${this.base}</p>
         <p>Price: $${this.price.toFixed(2)}</p>
     `;
