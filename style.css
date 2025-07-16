@@ -62,5 +62,13 @@ button:hover {
     padding: 10px;
     background-color: #fff6e6;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+img {
+    width: 100px;
+    height: 200px;
+    margin: 0 20px;
+}
